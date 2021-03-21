@@ -1,8 +1,4 @@
-<%-- 
-    Document   : welcome
-    Created on : 29 Jan, 2021, 11:37:13 AM
-    Author     : Naveen Prasad
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
