@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>GamesUp Chat</title>
+	</head>
+	<body style="background-image: url(bf.jpg);">
+            <button><a href="http://localhost:8080/bootathon-2/home">Back</a></button>
+		<div class="join-container">
+			<header class="join-header">
+				<h1><i class="fa fa-comments"></i> GamesUp Chat</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Gamer Name</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter Gamername..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Group</label>
+						<select name="room" id="room">
+							<option value="ClashOfClans">ClashOfClans</option>
+							<option value="Pubg">Pubg</option>
+							<option value="Nfs Mostwanted">Nfs Mostwanted</option>
+							<option value="Far Cry-6">Far Cry-6</option>
+							<option value="Minecraft">Minecraft</option>
+							<option value="Among Us">Among Us</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Join Group</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>

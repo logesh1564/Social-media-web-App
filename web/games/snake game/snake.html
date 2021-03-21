@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Snake Game</title>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+                background: url(bg\ for\ snake.jpg);
+            }
+
+            .cd{
+                position: absolute;;
+                top:80;
+                left:30%;
+            }
+            .button{
+                border-radius:0%;
+                margin-top:21%;
+                margin-left:9%;
+            }
+            button{
+                border: none;
+                border: radius 0; 
+                border-radius: 0%;
+                background-color: red;
+                height: 60px;
+                width: 9%;
+            }
+            .back{
+                border-radius:0%;
+                margin-top:5%;
+                margin-left:9%;
+            }
+
+            a{
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                
+            }
+            canvas{
+                
+                margin-top:300;
+                margin: 0 auto;
+             }
+          
+        </style>
+    </head>
+    <body>
+        <div class="button">
+            <button><a href="snake.html">New Game</a></button>
+        </div>
+        <div class="back">
+            <button><a href="#">Back</a></button>
+        </div>
+        <div class="cd">
+            <canvas id="snake" width="608" height="608"></canvas>
+        </div>
+    
+    </body>
+    <script src="snake.js"></script>
+</html>

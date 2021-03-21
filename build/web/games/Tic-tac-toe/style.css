@@ -1,0 +1,109 @@
+/*body {
+    background-image: url("nn.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+.h1{
+    color: #FFFFFF;
+}
+
+ Settings grid layout for container and position
+auto template for center alignment
+
+.game-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+
+}
+
+ Settings for individual cells in grid
+user-select for disable text highlight
+
+.cell {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 85px;
+    padding: 10px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.restart {
+    font-size: 20px;
+    padding: 10px;
+    border-color: #e7e7e7;
+    color: black;
+}
+.restart:hover{
+    background: #e7e7e7;
+}
+
+ Remove outline border to look like an tic tac toe board
+
+#c00, #c01, #c02 {
+    border-top: none;
+}
+#c00, #c10, #c20 {
+    border-left: none;
+}
+#c02, #c12, #c22 {
+    border-right: none;
+}
+#c20, #c21, #c22 {
+    border-bottom: none;
+}*/
+body {
+    background-image: url('nn.jpg');
+}
+
+
+.container {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .container h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .row {
+    height: 100px;
+  }
+  
+  .col {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .col:hover {
+      background-color: rgb(255, 244, 181);
+  }
+  
+  .border-b {
+    border-bottom: 10px solid black;
+  }
+  
+  .border-r {
+    border-right: 10px solid black;
+  }
+  
+  .winner {
+      color: blue;
+  }
